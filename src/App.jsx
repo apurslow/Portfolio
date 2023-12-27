@@ -12,7 +12,16 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
           <Navbar />
           <Hero />
-          </div>
+        </div>
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <Feedbacks />
+        <div className="realitve z-0">
+          <StarsCanvas />
+          <Contact />
+        </div>
       </div>
     </BrowserRouter>
   )

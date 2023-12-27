@@ -11,9 +11,10 @@ const Computers = () => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor={"black"} />
+      <hemisphereLight intensity={0.5} groundColor={"black"} />
       <pointLight intensity={1}/>
-      <spotLight intensity={1} position={[-20, 50, 10]} angle={0.12} penumbra={1} castShadow shadow-mapsize={1024}/>
+      <directionalLight position={[5, 10, 0]} intensity={1} />
+      <spotLight position={[-20,50,10]} intensity={0.8} angle={0.12} penumbra={1} castShadow shadow-mapsize={1024}/>
       <primitive object={computer.scene} scale={0.75} position={[0, -3.25, -1.5]} rotation={[-0.01, -0.2, -0.1]} />
     </mesh>
   )
@@ -25,7 +26,7 @@ const ComputersCanvas = () => {
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 50 }}
+      camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>

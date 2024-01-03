@@ -5,7 +5,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from
 
 const App = () => {
 
-
+//removed <Feedbacks /> for now
   return (
     <BrowserRouter>
       <div className="realitve z-0 bg-primary">
@@ -17,7 +17,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        
         <div className="realitve z-0">
           <Contact />
         </div>

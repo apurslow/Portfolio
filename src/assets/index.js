@@ -25,6 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import army from "./company/army.png";
+import vetCenter from "./company/vet_center.png";
+import tcc from "./company/TCC_Logo.png";
+import medline from "./company/medline_vector.svg";
+import aws from "./company/aws.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  army,
+  vetCenter,
+  tcc,
+  medline,
+  aws
 };

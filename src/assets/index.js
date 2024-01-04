@@ -37,6 +37,9 @@ import linkedIn from "./company/linkedIn.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import crashPic from "./project_display/crash.png";
+import theatreTest from './project_display/a.png';
+import demopic from './project_display/demopic.png';
 
 export {
   logo,
@@ -75,4 +78,7 @@ export {
   pmndrs,
   testDoggo,
   linkedIn,
+  crashPic,
+  theatreTest,
+  demopic,
 };

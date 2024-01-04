@@ -27,7 +27,8 @@ import {
     vetCenter,
     tcc,
     medline,
-    aws
+    aws,
+    pmndrs,
   } from "../assets/index.js";
 
 
@@ -120,6 +121,11 @@ import {
       name: "Three JS",
       icon: threejs,
     },
+    {
+      name: "PMNDRS",
+      icon: pmndrs,
+    },
+
     {
       name: "git",
       icon: git,

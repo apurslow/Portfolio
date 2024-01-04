@@ -19,12 +19,20 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/three.png";
+import pmndrs from "./tech/pmndrs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import army from "./company/army.png";
+import vetCenter from "./company/vet_center.png";
+import tcc from "./company/TCC_Logo.png";
+import medline from "./company/medline_vector.svg";
+import aws from "./company/aws.png";
+import testDoggo from "./test_doggo.gif";
+import linkedIn from "./company/linkedIn.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +67,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  army,
+  vetCenter,
+  tcc,
+  medline,
+  aws,
+  pmndrs,
+  testDoggo,
+  linkedIn,
 };

@@ -3,7 +3,7 @@ import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 
 import { styles } from '../styles.js'
-import { services } from '../constants/constants.js'
+import { services, about_me } from '../constants/constants.js'
 import { fadeIn, textVariant } from '../utils/motion.js'
 import { SectionWrapper } from '../hoc'
 
@@ -27,12 +27,10 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>{about_me.preface}</p>
+        <h2 className={styles.sectionHeadText}>{about_me.title}</h2>
       </motion.div>
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text[17px] max-w-3xl leading-[30px]">
-        I am a self-taught web developer with a passion for learning and problem solving. I have experience working with React, Node.js, Express, MongoDB, and PostgreSQL. I am currently working on a full stack e-commerce application using React, Redux, Node.js, Express, PostgreSQL, and Stripe.
-      </motion.p>
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text[17px] max-w-3xl leading-[30px]">{about_me.description}</motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

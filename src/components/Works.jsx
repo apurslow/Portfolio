@@ -6,8 +6,9 @@ import { github } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants/constants'
 import { fadeIn, textVariant } from '../utils/motion'
+import { LinkIcon } from '@heroicons/react/24/outline'
 
-const ProjectCard = ({ index, name, description, image, tags, source_code_link }) => {
+const ProjectCard = ({ index, name, description, image, tags, source_code_link, live_code_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt className="bg-tertiary p-5 rounded-2x1 sm:w-[360px] w-full" options={{ max: 45, scale: 1, speed: 450 }}>
@@ -18,6 +19,11 @@ const ProjectCard = ({ index, name, description, image, tags, source_code_link }
             <div onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
               <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
+            </div >
+            <div onClick={() => window.open(live_code_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                <LinkIcon className="w-1/2 h-1/2 object-contain" />
+
             </div>
           </div>
         </div>
@@ -64,4 +70,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

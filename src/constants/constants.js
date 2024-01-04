@@ -29,6 +29,8 @@ import {
     medline,
     aws,
     pmndrs,
+    testDoggo,
+    linkedIn,
   } from "../assets/index.js";
 
 
@@ -52,6 +54,12 @@ import {
       title: "Contact",
     },
   ];
+  const socials = {
+    linkedin: "https://www.linkedin.com/in/aaron-purslow/",
+    linkedIn_icon: linkedIn,
+    github: "https://github.com/apurslow"
+
+  }
 
   const about_me = {
     preface: "Hello, I'm",
@@ -236,10 +244,33 @@ import {
   ];
   
   const projects = [
+    
     {
-      name: "Car Rent",
+      name: "Javascript Mastery Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Built a portfolio website for a client using React, Tailwind CSS, and Framer Motion, allowing the client to showcase their work and attract new clients.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: testDoggo,
+      source_code_link: "https://github.com/apurslow/jsMastery_demo/",
+      live_code_link: "https://apurslow.github.io/jsMastery_demo/"
+    },
+    {
+      name: "Theater Cube",
+      description:
+        "Built a demo to showcase a cube that simulates bouncing, changing color, and making noise utilizing theatre.js to animate the react-three-fiber objects.",
       tags: [
         {
           name: "react",
@@ -255,33 +286,14 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/apurslow/theatre-cube-test",
+      live_code_link: "https://apurslow.github.io/theatre-cube-test/"
+
     },
     {
-      name: "Job IT",
+      name: "Theatre Demo",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An introduction to theatre.js showcasing scene creation, and animation",
       tags: [
         {
           name: "nextjs",
@@ -297,8 +309,32 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+       source_code_link: "https://github.com/apurslow/theatre-test",
+      live_code_link: "https://apurslow.github.io/theatre-test/"
+    },
+    {
+      name: "r3f-blender-crash-demo",
+      description:
+        "Built a demo to showcase a importing a gltf model from blender into react-three-fiber and animating it.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/apurslow/r3f-blender-crash-demo",
+      live_code_link: "https://apurslow.github.io/r3f-blender-crash-demo/"
+
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects, about_me };
+  export { services, technologies, experiences, testimonials, projects, about_me, socials };

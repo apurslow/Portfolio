@@ -31,6 +31,8 @@ import vetCenter from "./company/vet_center.png";
 import tcc from "./company/TCC_Logo.png";
 import medline from "./company/medline_vector.svg";
 import aws from "./company/aws.png";
+import testDoggo from "./test_doggo.gif";
+import linkedIn from "./company/linkedIn.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -71,4 +73,6 @@ export {
   medline,
   aws,
   pmndrs,
+  testDoggo,
+  linkedIn,
 };

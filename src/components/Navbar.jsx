@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
-import { navLinks } from '../constants/constants'
-import { logo, menu, close } from '../assets';
+import { navLinks, socials } from '../constants/constants'
+import { logo, menu, close, github } from '../assets';
 
 
 const Navbar = () => {
@@ -19,8 +19,18 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">Aaron &nbsp; <span className="sm:block hidden"> | Javascript mastery</span>
+          
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">Aaron Purslow
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+
+            <span onClick={() => window.open(socials.linkedin, "_blank")}>
+              <img src={socials.linkedIn_icon} alt="close" className="w-[25px] h-[25px] object-contain" />
+            </span>
+            &nbsp;
+            <span onClick={() => window.open(socials.github, "_blank")}>
+              <img src={github} alt="close" className="w-[25px] h-[25px] object-contain" />
+            </span>
+            &nbsp;
           </p>
 
         </Link>

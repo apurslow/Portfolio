@@ -7,8 +7,7 @@ import { EarthCanvas, StarsCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-const dotenv = require('dotenv');
-const result = dotenv.config();
+
 
 const Contact = () => {
   const formRef = useRef();

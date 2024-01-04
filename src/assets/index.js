@@ -33,13 +33,14 @@ import medline from "./company/medline_vector.svg";
 import aws from "./company/aws.png";
 import testDoggo from "./test_doggo.gif";
 import linkedIn from "./company/linkedIn.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import crashPic from "./crash.png";
 import theatreTest from './a.png';
 import demopic from './demopic.png';
+//this is a test
+import carrent from "./carrent.png";
+import jobit from "./jobit.png";
+import tripguide from "./tripguide.png";
+
 
 export {
   logo,

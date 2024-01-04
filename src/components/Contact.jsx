@@ -7,7 +7,9 @@ import { EarthCanvas, StarsCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-
+//service id portfolio
+//template template_bwg4vo1
+// pub LMwzt1jbbjMFIB3p6
 
 const Contact = () => {
   const formRef = useRef();
@@ -35,8 +37,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        process.env.EMAILJS_SERVICE_ID,
-        process.env.EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Aaron",
@@ -44,7 +46,7 @@ const Contact = () => {
           to_email: "apurslow@gmail.com",
           message: form.message,
         },
-        process.env.EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {

@@ -30,7 +30,7 @@ const Contact = () => {
       [name]: value,
     });
   };
-
+  console.log(import.meta.env.VITE_APP_TESTO)
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -39,6 +39,7 @@ const Contact = () => {
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+       
         {
           from_name: form.name,
           to_name: "Aaron",

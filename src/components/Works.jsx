@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { github } from '../assets'
 import { SectionWrapper } from '../hoc'
-import { projects } from '../constants/constants'
+import { projects, about_me } from '../constants/constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { LinkIcon } from '@heroicons/react/24/outline'
 
@@ -56,8 +56,7 @@ const Works = () => {
         <h2 className={styles.sectionHeadText}>projects</h2>
       </motion.div>
       <div className="w-full flex">
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px]">
-          For the past 2 years, I have been working as a freelance web developer. I have worked on a wide range of projects with clients from all over the world. I have worked on projects ranging from simple landing pages to complex web applications. I have also worked on projects that required me to work with a team of developers. I have worked with clients from all over the world, including the United States, Canada, Australia, and the United Kingdom.
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px]"> {about_me.projectDescription}
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

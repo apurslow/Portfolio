@@ -31,6 +31,9 @@ import {
     pmndrs,
     testDoggo,
     linkedIn,
+    crashPic,
+    theatreTest,
+    demopic,
   } from "../assets/index.js";
 
 
@@ -62,11 +65,12 @@ import {
   }
 
   const about_me = {
-    preface: "Hello, I'm",
+    preface: "Introduction",
     title: "About Me",
     description:
-      "I am butt",
+      "Hi! Thanks for stopping by. I'm Aaron, a full-stack web developer with a passion for creating beautiful, functional, and scalable web applications. I'm a recent Computer Science and Systems Graduate, and I'm looking for a full-time position as a software engineer. I'm a quick learner, and I'm always looking for new challenges. I'm excited to work with you!",
     image: meta,
+    projectDescription: "My most recent project experience has primarily been with JavaScript, React, and Node. I have also worked with a variety of other technologies, including Three.js, Framer Motion, and theatre.js. I am always looking to learn new technologies and improve my skills. Below are *some* of my more recent projects with links to the source code and live demos."
   };
   
   const services = [
@@ -216,6 +220,7 @@ import {
     },
   ];
   
+  //example implementation of testimonials
   const testimonials = [
     {
       testimonial:
@@ -248,7 +253,7 @@ import {
     {
       name: "Javascript Mastery Portfolio",
       description:
-        "Built a portfolio website for a client using React, Tailwind CSS, and Framer Motion, allowing the client to showcase their work and attract new clients.",
+        "Built this portfolio website fusing React, Tailwind CSS, three.js, and Framer Motion, and deployed it utilizing digital ocean. ",
       tags: [
         {
           name: "react",
@@ -259,25 +264,34 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "threejs",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "framer-motion",
+          color: "purple-text-gradient",
+        }
       ],
-      image: testDoggo,
+      image: demopic,
       source_code_link: "https://github.com/apurslow/jsMastery_demo/",
       live_code_link: "https://apurslow.github.io/jsMastery_demo/"
     },
+    
     {
-      name: "Theater Cube",
+      name: "Theatre Demo",
       description:
-        "Built a demo to showcase a cube that simulates bouncing, changing color, and making noise utilizing theatre.js to animate the react-three-fiber objects.",
+        "An introduction to theatre.js showcasing scene creation, and animation",
       tags: [
         {
-          name: "react",
+          name: "react-three-fiber",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "theatre.js",
           color: "green-text-gradient",
         },
         {
@@ -285,30 +299,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/apurslow/theatre-cube-test",
-      live_code_link: "https://apurslow.github.io/theatre-cube-test/"
-
-    },
-    {
-      name: "Theatre Demo",
-      description:
-        "An introduction to theatre.js showcasing scene creation, and animation",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
+      image: theatreTest,
        source_code_link: "https://github.com/apurslow/theatre-test",
       live_code_link: "https://apurslow.github.io/theatre-test/"
     },
@@ -330,7 +321,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: crashPic,
       source_code_link: "https://github.com/apurslow/r3f-blender-crash-demo",
       live_code_link: "https://apurslow.github.io/r3f-blender-crash-demo/"
 

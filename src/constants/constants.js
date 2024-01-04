@@ -25,7 +25,7 @@ import {
     pmndrs,
     testDoggo,
     linkedIn,
-    crashPic,
+    crashdisplay,
     theatreTest,
     demopic,
   } from "../assets/index.js";
@@ -315,7 +315,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: crashPic,
+      image: crashdisplay,
       source_code_link: "https://github.com/apurslow/r3f-blender-crash-demo",
       live_code_link: "https://apurslow.github.io/r3f-blender-crash-demo/"
 

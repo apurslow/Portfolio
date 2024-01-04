@@ -10,13 +10,16 @@
     "preview": "vite preview "
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@emailjs/browser": "^3.11.0",
     "@heroicons/react": "^2.1.1",
     "@react-three/drei": "^9.92.7",
     "@react-three/fiber": "^8.15.12",
     "framer-motion": "^10.16.16",
+    "g": "^2.0.1",
     "gh-pages": "^6.1.1",
     "maath": "^0.10.7",
+    "npm": "^10.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",

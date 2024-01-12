@@ -3,14 +3,13 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas2, StarsCanvas } from "./canvas";
+import { EarthCanvas, StarsCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 //service id portfolio
 //template template_bwg4vo1
 // pub LMwzt1jbbjMFIB3p6
-
 
 const Contact = () => {
   const formRef = useRef();
@@ -133,7 +132,7 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-        <EarthCanvas2 />
+        <EarthCanvas />
         <StarsCanvas />
       </motion.div>
     </div>

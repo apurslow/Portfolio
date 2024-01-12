@@ -1,7 +1,3 @@
-//IMPORTANT!!!!!!!!
-//MAKE SURE ALL ASSETS ARE LOWERCASE
-//WILL RUN LOCALLY BUT DEPLOYMENT WILL FAIL IF NOT LOWERCASE
-
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";

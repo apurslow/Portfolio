@@ -7,6 +7,9 @@ import { EarthCanvas2, StarsCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+//service id portfolio
+//template template_bwg4vo1
+// pub LMwzt1jbbjMFIB3p6
 
 
 const Contact = () => {

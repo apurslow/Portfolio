@@ -247,7 +247,7 @@ import {
     {
       name: "Javascript Mastery Portfolio",
       description:
-        "Built this portfolio website from using React, Tailwind CSS, three.js, and Framer Motion, and deployed it utilizing Digital Ocean. ",
+        "Built this portfolio website fusing React, Tailwind CSS, three.js, and Framer Motion, and deployed it utilizing digital ocean. ",
       tags: [
         {
           name: "react",
@@ -300,7 +300,7 @@ import {
     {
       name: "r3f-blender-crash-demo",
       description:
-        "Built a demo to showcase  importing a gltf scene from blender into a react-three-fiber app and animating it with the correct textures.",
+        "Built a demo to showcase a importing a gltf model from blender into react-three-fiber and animating it.",
       tags: [
         {
           name: "react",

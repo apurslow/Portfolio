@@ -22,7 +22,7 @@ const DarkMatter = () => {
 
   return (
     <mesh>
-      <primitive object={darkmatter.scene} scale={1.5} position-y={-2} rotation-y={0}  />
+      <primitive object={darkmatter.scene} scale={1.5} position-y={-2.5} rotation-y={0}  />
     </mesh>
 
   )
@@ -36,7 +36,7 @@ const DarkMatterCanvas = () => {
       shadows
       frameloop="always"
       camera={{
-        position: [0, 0, 9],
+        position: [0, -2, 8],
         fov: 60,
         near: 0.1,
         far: 300

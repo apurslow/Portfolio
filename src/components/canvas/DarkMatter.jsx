@@ -39,7 +39,7 @@ const DarkMatterCanvas = () => {
         position: [0, -2, 8],
         fov: 60,
         near: 0.1,
-        far: 300
+        far: 200
       }}
       gl={{ preserveDrawingBuffer: true }}
 
